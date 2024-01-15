@@ -1,4 +1,14 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Amazon clone project
+
+## Description:
+
+This Is An Amazon Clone Project Using Next JS.
+
+### Suggestions techs:
+
+1. Rest API => TRPC | Nest.JS.
+2. SQL => Postgres | MySQL.
+3. ORM => Prisma | Drizzle-orm.
 
 ## Getting Started
 
