@@ -1,3 +1,5 @@
+import { List } from "@/types";
+
 const categories = [
   "all categories",
   "amazon devices",
@@ -14,5 +16,14 @@ const categories = [
   "home & garden",
   "sports",
 ] as const;
-
-export { categories };
+const yourAccountList: List[] = [
+  { text: "your account", path: "/account" },
+  { text: "your orders", path: "/orders" },
+  { text: "your addresses", path: "/addresses" },
+  { text: "your lists", path: "/lists" },
+  { text: "your recommendations", path: "/recommendations" },
+  { text: "your prime membership", path: "/prime-membership" },
+  { text: "your seller account", path: "/seller-account" },
+] as const;
+const yourLists: List[] = [{ text: "create a list", path: "/lists" }] as const;
+export { categories, yourAccountList, yourLists };
