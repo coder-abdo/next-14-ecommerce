@@ -13,7 +13,7 @@ export const Sign = () => {
           <AiOutlineCaretDown className="self-end" />
         </span>
       </h4>
-      <div className="absolute border border-gray-200 hidden hover:block group-hover:block min-w-[460px] top-[125%] right-5 w-full shadow-sm bg-white p-2">
+      <div className="absolute border border-gray-200 hidden hover:block group-hover:block min-w-[460px] top-[100%] right-5 w-full shadow-sm bg-white p-2">
         <SignInBtnComp />
         <div className="flex justify-between p-4">
           <AccountList title="Your lists" list={yourLists} />
