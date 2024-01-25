@@ -9,7 +9,10 @@ import { NavCart } from "@/components/navbar/cart";
 
 export const Navbar = () => {
   return (
-    <nav className="bg-black flex items-center gap-2 py-2 px-1">
+    <nav
+      aria-label="main navigation"
+      className="bg-black flex items-center gap-2 py-2 px-1"
+    >
       <Logo />
       <DeliveryTo />
       <SearchBar />

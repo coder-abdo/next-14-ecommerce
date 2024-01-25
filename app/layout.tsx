@@ -3,6 +3,7 @@ import { PT_Sans } from "next/font/google";
 import "./globals.css";
 import { Navbar } from "@/components/navbar";
 import { cn } from "@/lib/utils";
+import { SecondaryNav } from "@/components/secondaryNav";
 
 const ptSans = PT_Sans({
   subsets: ["latin"],
@@ -29,6 +30,7 @@ export default function RootLayout({
         )}
       >
         <Navbar />
+        <SecondaryNav />
         {children}
       </body>
     </html>
